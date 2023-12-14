@@ -1,3 +1,48 @@
-#heading{
-   color: aqua; 
+.header{
+   display:flex;
+   justify-content: space-between;
+   border: 1px solid black;
+}
+
+.logo{
+    width:80px;
+}
+
+.nav-items>ul{
+   display: flex;
+   list-style-type: none;
+}
+.nav-items > ul > li  {
+   font-size: 24px;
+   padding: 10px;
+   margin: 10px;
+}
+/*=================================body css====================*/
+
+.search-bar{
+   padding: 10px;
+}
+
+.resturant-card{
+width: 100%;
+}
+.rescard-image{
+   width:100%;
+}
+
+.rescard{  
+   padding: 5px;
+   width:150px;
+   margin:20px;
+}
+.rescard:hover{
+   border : 1px solid black;
+   cursor: pointer;
+}
+
+.resturant-card{
+   display: flex;
+   padding: 5px;
+   flex-wrap: wrap;
+   
 }
